@@ -1,0 +1,25 @@
+/* .wrap{
+    padding: 0;
+    margin: 0;
+} */
+.headings{
+    background: linear-gradient(to right, #f32170, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+
+}
+/* .wrap{
+    background-color: rgb(196, 221, 254);
+
+} */
+.container{
+    padding-top: 200px;
+
+    text-align: center;
+}
+
+.papers{
+    padding: 50px 50px 50px 50px;
+    
+}

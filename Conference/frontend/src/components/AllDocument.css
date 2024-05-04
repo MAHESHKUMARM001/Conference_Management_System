@@ -1,0 +1,25 @@
+.cartsection{
+    padding: 30px 30px 30px 30px;
+     background-color: rgb(221, 221, 247);
+     width: 1500px;
+     border-radius: 30px;
+}
+.cartwrap{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.button2{
+    background-color: rgb(255, 170, 65);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    float: right;
+}
+.document ul{
+    list-style-type:none;
+}

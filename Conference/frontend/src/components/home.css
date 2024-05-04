@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    padding: 10px 10px 10px 10px;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    align-items: center;
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+    padding-left: 20px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(187, 0, 255);
+}
+.banner{
+    padding: 50px 50px 50px 50px;
+    background-image: url("../Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ctitle{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.datet{
+    text-align: right;
+}
+.button1{
+    background-color: rgb(255, 170, 65);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.about{
+    padding: 50px 50px 50px 50px;
+}
+.abouti{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ourvisitioni{
+    padding: 50px 50px 0px 50px;
+    /* background-color: rgb(255, 250, 237); */
+}
+.ourmissioni{
+    padding: 50px 50px 50px 50px;
+    /* background-color: rgb(255, 250, 237); */
+}
+.Submission{
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    /* color: rgb(150, 150, 249); */
+    /* background-color: rgb(169, 169, 255); */
+}
+.subcontent{
+    padding-bottom: 50px;
+}
+.dates{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /* background-color: rgb(239, 151, 255); */
+}
+.datesi{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.restrictioni{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+/* .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  } */
+  .gallery {
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .gallary img{
+    padding: 5px 5px 5px 5px;
+    width: 400px;
+    height: 300px;
+    
+  }
+  .gallary img:hover{
+    /* width: 210px;
+    height: 210px; */
+    border:2px solid rgb(4, 121, 4);
+    border-radius: 10px;
+  }
+  .gallary1{
+    padding-top: 50px;
+  }
+  .gallary{
+    /* padding: 50px 50px 10px 50px; */
+    background-image: url("../Images/baground1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+
+.detecompu{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px; 
+}
+/* .detecompu img{
+    width: 100px;
+    height: 100px;
+} */
+.wrapconference{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dateicons{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(165, 204, 249);
+    border: 2px solid black;
+}
+.dateicons img{
+    width:100px;
+    height: 100px;
+    padding-top: 20px;
+    object-fit: cover;
+}
+.contenticon{
+    padding-left: 30px;
+}
+.headings{
+    background: linear-gradient(to right, #f32170, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.headertop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
